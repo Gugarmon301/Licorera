@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="licorera.Views.RegisterController">
+    <stylesheets>
+        <URL value="@register.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass">
+         <stylesheets>
+            <URL value="@login.css" />
+         </stylesheets>
+         <children>
+            <Pane prefHeight="400.0" prefWidth="239.0" style="-fx-background-color: F1A50E;">
+               <children>
+                  <Button layoutX="68.0" layoutY="314.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Registrarse" />
+                  <TextField layoutX="24.0" layoutY="107.0" promptText="Nombre">
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="24.0" layoutY="146.0" promptText="Apellido">
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="24.0" layoutY="34.0" prefHeight="44.0" prefWidth="182.0" style="-fx-background-color: none;" text="Licorera el sol" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="SansSerif Regular" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="24.0" layoutY="189.0" promptText="Celular">
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="24.0" layoutY="235.0" promptText="Correo">
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="24.0" layoutY="273.0" promptText="Contraseña">
+                     <font>
+                        <Font name="SansSerif Regular" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+            <Pane layoutX="225.0" layoutY="-4.0" prefHeight="400.0" prefWidth="372.0" style="-fx-background-color: #ffffff; -fx-background-image: c:\descargas\63a11d3475787;">
+               <children>
+                  <ImageView fitHeight="394.0" fitWidth="372.0" layoutY="7.0" opacity="0.81" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../../Imagen/alcoholic-beverages-1845295_1280.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
